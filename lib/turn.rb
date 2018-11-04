@@ -21,7 +21,6 @@ def position_taken?(board, index)
     false 
   elsif board[index] == "X" || "O"
     true
-  end 
 end 
 
 def input_to_index(user_input)
